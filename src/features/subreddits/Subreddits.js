@@ -7,7 +7,7 @@ export const Subreddits = () => {
     return (
         <ul>
             <li>
-
+                Test
             </li>
         </ul>
     )
