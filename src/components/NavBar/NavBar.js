@@ -3,7 +3,7 @@ import styles from "./NavBar.module.css"
 
 import { useDispatch } from "react-redux";
 
-import { SearchBar } from "../../../features/searchbar/SearchBar";
+import { SearchBar } from "../../features/searchbar/SearchBar";
 
 export const NavBar = () => {
 

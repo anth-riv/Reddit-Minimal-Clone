@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-import { NavBar } from './app/components/NavBar/NavBar';
-import { AsideContainer } from './app/components/AsideContainer/AsideContainer';
-import { ResultsContainer } from './app/components/PostsHomePage/ResultsContainer'
+import { NavBar } from './components/NavBar/NavBar';
+import { AsideContainer } from './components/AsideContainer/AsideContainer';
+import { ResultsContainer } from './components/PostsHomePage/ResultsContainer';
 
 function App() {
   return (
