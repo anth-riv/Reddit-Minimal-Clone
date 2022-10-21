@@ -20,6 +20,7 @@ export const Subreddits = () => {
             <li key={subreddit.id} className={styles.subLi}>
               <img className={styles.subIcon} src={subreddit.icon_img || `https://api.adorable.io/avatars/25/${subreddit.display_name}`} alt={`${subreddit.display_name_prefixed}`}/>
               <button onClick={() => dispatch(getSubredditPosts(subreddit.display_name))}>{subreddit.display_name_prefixed}</button>
+              {console.log(subreddit.display_name)}
             </li>
           ))
         }

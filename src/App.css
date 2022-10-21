@@ -2,8 +2,15 @@
   margin: 0;
 }
 
-
 body {
   background-color: #031927;
   color: #9DD1F1;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 60px;
 }
