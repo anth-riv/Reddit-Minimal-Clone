@@ -25,7 +25,13 @@ export const postSlice = createSlice({
         isLoading: false,
         hasError: false,
     },
-    reducers: {},
+    reducers: {
+        filterPostObject: (state, action) => {
+          state.posts = state.posts.filter((post) => {
+            return post.title.toLowerCase().includes(action.payload.toLowerCase());
+          });
+        }
+      },
     extraReducers: (builder) => {
         builder
             .addCase(getPostObject.pending, (state) => {
