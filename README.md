@@ -4,7 +4,7 @@ Simple and minimal web app that received posts and comments from Reddit's JSON A
 
 ## Technologies and Software used
 
-* Html
+* HTML
 * CSS
 * Javascript
 * React
@@ -13,8 +13,9 @@ Simple and minimal web app that received posts and comments from Reddit's JSON A
 
 ## Features
 
-* Search Function.
-* A list of the most popular subreddits are displayed on the left.
+* Search function.
+* Comments section.
+* A list of the most popular subreddits are displayed on the right.
 * Utilises the reddit API to fetch posts and comments from reddit directly.
 
 
