@@ -4,7 +4,6 @@ import { Post } from "../../features/post/Post";
 import { getPostObject, selectLoading, selectPosts } from "../../features/post/PostSlice";
 import { useDispatch, useSelector } from "react-redux";
 
-
 export const ResultsContainer = () => {
     const dispatch = useDispatch();
     const posts = useSelector(selectPosts);

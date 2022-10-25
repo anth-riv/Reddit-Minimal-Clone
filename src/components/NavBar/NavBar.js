@@ -10,7 +10,7 @@ export const NavBar = () => {
         <h3>Reddit<span>Minimal</span></h3>
       </div>
       <div>
-        <SearchBar className={styles.search} />
+        <SearchBar />
       </div>
     </div>
   )
