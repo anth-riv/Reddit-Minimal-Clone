@@ -7,10 +7,14 @@ import { ResultsContainer } from './components/PostsHomePage/ResultsContainer';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <AsideContainer />
-      <ResultsContainer />
+    <div>
+      <header>
+        <NavBar />
+      </header>
+      <main className="main">
+        <ResultsContainer />
+        <AsideContainer />
+      </main>
     </div>
   );
 }
