@@ -18,4 +18,9 @@ Simple and minimal web app that received posts and comments from Reddit's JSON A
 * A list of the most popular subreddits are displayed on the right.
 * Utilises the reddit API to fetch posts and comments from reddit directly.
 
+## Live Demo 
+
+https://reddit-minimal-app.netlify.app/
+
+
 
