@@ -2,13 +2,12 @@
   background-color: #343434;
   width: 350px;
   height: 87vh;
-  margin: 50px 20px 0 50px;
+  margin: 0 20px 0 50px;
   border: 1px solid #D7DADC;
   border-radius: 10px;
-  position: sticky;
+  position: fixed;
   top: 90px;
   box-sizing: border-box;
-  float: right;
   padding-bottom: 30px;
 }
   
